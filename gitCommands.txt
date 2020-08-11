@@ -1,0 +1,104 @@
+MAKE NEW REPOSITORY
+______________________________________________________________________
+git init
+
+
+
+DO THIS EVERY TIME
+______________________________________________________________________
+cd Desktop/"Bookstore Project"
+git status
+
+
+
+ADD TO STAGING AREA
+______________________________________________________________________
+
+git add .
+OR
+git add filename.txt
+
+
+
+COMMIT
+______________________________________________________________________
+
+git commit -m "YOUR MESSAGE DO NOT LEAVE EMPTY"
+
+
+
+VIEW COMMITS
+______________________________________________________________________
+
+git log
+
+
+
+VIEW COMMITS BY AUTHOR
+______________________________________________________________________
+
+git log --author="Name"
+
+
+
+CHECK WHATS DIFFERENT BTW STAGED AND REPOSITORY
+(ONLY WHEN FILE NOT STAGED)
+______________________________________________________________________
+git diff
+
+
+
+CHECK WHATS DIFFERENT IN STAGING AREA
+______________________________________________________________________
+git diff --staged
+
+
+
+REMOVE FILE (AFTER REMOVING, THEN COMMIT)
+______________________________________________________________________
+git rm name.txt
+
+
+
+TO RENAME MOVE A FILE (MOVE SAME AS RENAME, THEN COMMIT)
+______________________________________________________________________
+git mv oldName.txt newName.txt
+
+
+
+TO MOVE A FILE TO FOLDER AND RENAME (THEN COMMIT)
+______________________________________________________________________
+git mv oldName.txt newFolder/newName.txt
+
+
+
+
+REMOVE FROM STAGING AREA
+______________________________________________________________________
+git reset HEAD name.txt
+
+
+
+TAKE FILE FROM REPOSITORY AND USE AS WORKING COPY
+(PREVIOUS VERSION OF COPY, -- DOES NOT CHECK A BRANCH)
+______________________________________________________________________
+git checkout -- yourFile.txt
+
+
+
+USE A PREVIOUS VERSION OF FILE USING COMMIT NUMBER FOUND IN LOG
+(NEED TO TYPE OUT, NO COPY PASTA, FIRST FEW CHARACTERS)
+(USE COMMIT NUMBER YOU WANT TO REPLACE WITH)
+(-a TO ADD TO ALL FILES)
+(-m TO CONNECT COMMIT MESSAGE TO COMMIT)
+https://www.youtube.com/watch?v=owhLQKxkvjw&list=PL6gx4Cwl9DGAKWClAD_iKpNC0bGHxGhcx&index=16
+______________________________________________________________________
+git checkout  012345 -- name.txt
+git commit -am "YOUR MESSAGE"
+
+
+
+
+//////////////////////////////////////////////////////////////////////
+			GITHUB
+//////////////////////////////////////////////////////////////////////

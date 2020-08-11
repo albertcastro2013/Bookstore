@@ -1,0 +1,70 @@
+PROJECT SCHEDULE
+MONTH GOAL:	FINISH PROJECT BY AUGUST 20TH, 2020.
+
+
+1ST WEEK GOAL  :FINISH A SUCCESSFUL BUILD WITHIN AUGUST 1ST OF A WINDOWS APPLICATION
+		THAT CAN ACCESS A DATABASE IN SQL.
+
+__________________________________
+7/20/20
+
+OBJECTIVES
+- COMPLETED:	Learn Git and Github
+
+WHAT WAS DONE
+- COMPLETED: 	Watch YouTube videos on subjects.
+
+
+
+__________________________________
+7/21/20
+
+OBJECTIVES
+- COMPLETED: 	Plan out frontend and backend (server).
+
+WHAT WAS DONE
+- COMPLETED: 	Internet searches. Reddit and YouTube was the most helpful
+		in finding information about objectives.
+- COMPLETED: 	Frontend will use C# and WPF UI framework in Visual Studio.
+- NEED	   :	Backend plan.
+ 
+
+
+__________________________________
+7/28/20
+
+OBJECTIVES
+- NEED	   :	Backend plan. Which database software with given information?
+- NEED	   :	Start to code front end. Use statement of work and mockup.
+
+WHAT WAS DONE
+- COMPLETED: 	Revised version control plan. Will use Git only. Created
+		Git shortcut commands
+ 
+
+
+__________________________________
+7/29/20
+
+OBJECTIVES
+- COMPLETED: 	Backend plan. Which database software with given information?
+- COMPLETED:	Revise front end plan.
+- NEED	   :	Start to code front end. Use statement of work and mockup.
+
+WHAT WAS DONE
+- COMPLETED: 	Decision to use MySQL because of CAP triangle. We need consistency
+		and availability since we are dealing with transactions.
+- COMPLETED: 	We will use an Android app instead of a Windows app.
+- NEED	   :	Find out if Android is secure enough for our project.
+- NEED	   :	Do we need an API?
+- NEED	   :	Learn Kotlin.
+- NEED	   :	Start to code front end. Use statement of work and mockup.
+
+
+
+
+__________________________________
+7/30/20 - 08/06/2020
+
+WHAT WAS DONE
+- COMPLETED: 	Learn Kotlin basics.
