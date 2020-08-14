@@ -11,8 +11,9 @@
 
         android:layout_width="360dp"
         android:layout_height="100dp"
-        android:background="@drawable/top_buttons_setting"
+        android:background="@drawable/buttons_blue_setting"
         android:text="@string/add_book"
+        android:textAlignment="center"
         android:textAllCaps="false"
         android:textColor="#FFFFFF"
         android:textSize="30sp"
@@ -24,8 +25,9 @@
 
         android:layout_width="360dp"
         android:layout_height="100dp"
-        android:background="@drawable/top_buttons_setting"
+        android:background="@drawable/buttons_blue_setting"
         android:text="@string/employees"
+        android:textAlignment="center"
         android:textAllCaps="false"
         android:textColor="#FFFFFF"
         android:textSize="30sp"
@@ -37,11 +39,12 @@
         android:layout_width="360dp"
 
         android:layout_height="120dp"
-        android:background="@drawable/top_buttons_setting"
+        android:background="@drawable/buttons_blue_setting"
         android:text="@string/book_search"
+        android:textAlignment="center"
+
+
         android:textAllCaps="false"
-
-
         android:textColor="#FFFFFF"
         android:textSize="30sp"
         app:layout_constraintBottom_toTopOf="@+id/guideline2"
@@ -50,10 +53,10 @@
 
     <Button
         android:id="@+id/ordersBtn"
-        android:layout_width="210dp"
-        android:layout_height="80dp"
-        android:background="#FF6565"
-        android:text="Orders"
+        android:layout_width="360dp"
+        android:layout_height="120dp"
+        android:background="@drawable/buttons_pink_setting"
+        android:text="@string/orders"
         android:textAlignment="center"
         android:textAllCaps="false"
         android:textAppearance="@style/TextAppearance.AppCompat.Body1"
@@ -61,26 +64,41 @@
         android:textSize="30sp"
         app:layout_constraintBottom_toTopOf="@+id/guideline3"
         app:layout_constraintEnd_toStartOf="@+id/guideline8"
+        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toEndOf="@+id/guideline7"
         app:layout_constraintStart_toStartOf="@+id/guideline7"
         app:layout_constraintTop_toTopOf="@+id/guideline2" />
 
     <Button
         android:id="@+id/customersBtn"
-        android:layout_width="210dp"
-        android:layout_height="80dp"
-        android:background="#29C61E"
-        android:text="Customers"
+        android:layout_width="360dp"
+        android:layout_height="120dp"
+        android:background="@drawable/buttons_green_setting"
+        android:text="@string/customers"
         android:textAlignment="center"
         android:textAllCaps="false"
         android:textAppearance="@style/TextAppearance.AppCompat.Body1"
         android:textColor="#FFFFFF"
         android:textSize="30sp"
-        app:layout_constraintBottom_toTopOf="@+id/guideline4"
         app:layout_constraintEnd_toStartOf="@+id/guideline8"
         app:layout_constraintStart_toEndOf="@+id/guideline7"
         app:layout_constraintStart_toStartOf="@+id/guideline7"
         app:layout_constraintTop_toTopOf="@+id/guideline3" />
+
+    <Button
+        android:id="@+id/logOutBtn"
+        android:layout_width="200dp"
+        android:layout_height="100dp"
+        android:background="@drawable/buttons_gray_setting"
+        android:text="@string/log_out"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toStartOf="@+id/guideline7"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/guideline4" />
 
     <androidx.constraintlayout.widget.Guideline
         android:id="@+id/guideline"
