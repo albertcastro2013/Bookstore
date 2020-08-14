@@ -7,19 +7,46 @@
     tools:context=".MainActivity">
 
     <Button
+        android:id="@+id/addBookBtn"
+
+        android:layout_width="360dp"
+        android:layout_height="100dp"
+        android:background="@drawable/top_buttons_setting"
+        android:text="@string/add_book"
+        android:textAllCaps="false"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toTopOf="@+id/guideline2.5"
+        app:layout_constraintStart_toStartOf="@+id/guideline8" />
+
+    <Button
+        android:id="@+id/employeesBtn"
+
+        android:layout_width="360dp"
+        android:layout_height="100dp"
+        android:background="@drawable/top_buttons_setting"
+        android:text="@string/employees"
+        android:textAllCaps="false"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toTopOf="@+id/guideline2.5"
+        app:layout_constraintEnd_toStartOf="@+id/guideline7" />
+
+    <Button
         android:id="@+id/bookSearchBtn"
-        android:layout_width="210dp"
-        android:layout_height="80dp"
-        android:background="#03A9F4"
-        android:text="Book Search"
-        android:textAlignment="center"
-        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:layout_width="360dp"
+
+        android:layout_height="120dp"
+        android:background="@drawable/top_buttons_setting"
+        android:text="@string/book_search"
+        android:textAllCaps="false"
+
+
         android:textColor="#FFFFFF"
         android:textSize="30sp"
         app:layout_constraintBottom_toTopOf="@+id/guideline2"
         app:layout_constraintEnd_toStartOf="@+id/guideline8"
-        app:layout_constraintStart_toEndOf="@+id/guideline7"
-        app:layout_constraintTop_toTopOf="@+id/guideline" />
+        app:layout_constraintStart_toStartOf="@+id/guideline7" />
 
     <Button
         android:id="@+id/ordersBtn"
@@ -70,6 +97,14 @@
         android:orientation="horizontal"
         app:layout_constraintGuide_begin="20dp"
         app:layout_constraintGuide_percent="0.25" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline2.5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="20dp"
+        app:layout_constraintGuide_percent="0.30" />
 
     <androidx.constraintlayout.widget.Guideline
         android:id="@+id/guideline3"
