@@ -57,8 +57,8 @@ WHAT WAS DONE
 - COMPLETED: 	We will use an Android app instead of a Windows app.
 - NEED	   :	Find out if Android is secure enough for our project.
 - NEED	   :	Do we need an API?
-- NEED	   :	Learn Kotlin.
-- NEED	   :	Start to code front end. Use statement of work and mockup.
+- NEED	   :	Learn Kotlin
+- NEED	   :	Start to code front end. Use statement of work and mockup
 
 
 
@@ -67,7 +67,7 @@ __________________________________
 7/30/20 - 08/06/2020
 
 WHAT WAS DONE
-- COMPLETED: 	Learn Kotlin basics.
+- COMPLETED: 	Learn Kotlin basics
 
 
 
@@ -75,4 +75,12 @@ __________________________________
 8/7/20 - 08/14/2020
 
 WHAT WAS DONE
-- COMPLETED: 	Home screen visuals.
+- COMPLETED: 	Home screen buttons, layouts, and visuals
+- COMPLETED: 	Vincent: Login screen buttons, layouts, and visuals
+
+__________________________________
+8/17/20 - 08/21/2020
+
+WHAT WAS DONE
+- NEED	   :	Book Search and Checkout Screen buttons, layouts, and visuals
+- NEED	   :	Vincent: Employees and Customers Screen

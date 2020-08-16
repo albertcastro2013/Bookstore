@@ -1,6 +1,10 @@
 <resources>
     <string name="app_name">FakeBookstore</string>
 
+    <string name="login">Login</string>
+    <string name="user_name">Username</string>
+    <string name="password">Password</string>
+
     <string name="employees">Employees</string>
     <string name="book_search">Book Search</string>
     <string name="add_book">Add Book</string>
