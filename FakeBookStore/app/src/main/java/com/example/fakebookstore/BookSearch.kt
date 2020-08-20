@@ -6,6 +6,6 @@ import android.os.Bundle
 class BookSearch : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_book_search)
+        setContentView(R.layout.book_search_activity)
     }
 }

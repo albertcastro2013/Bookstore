@@ -8,6 +8,9 @@ import android.widget.Toast
 import kotlinx.android.synthetic.main.login_screen_activity.*
 
 class LoginScreenActivity : AppCompatActivity() {
+
+    override fun onBackPressed() { }
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.login_screen_activity)
@@ -17,7 +20,7 @@ class LoginScreenActivity : AppCompatActivity() {
         loginBtn.setOnClickListener {
 
             if(userNameTxt.text.toString() == "" || passwordTxt.text.toString() == "") {
-                Toast.makeText(this, "Cannot Have Empty Forms", Toast.LENGTH_SHORT).show()
+                Toast.makeText(this, "Username and Password Required", Toast.LENGTH_SHORT).show()
 
             }
             else {

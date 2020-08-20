@@ -7,7 +7,11 @@ import android.widget.Toast
 import kotlinx.android.synthetic.main.home_screen_mr_finch_activity.*
 import kotlinx.android.synthetic.main.login_screen_activity.*
 
+
 class HomeScreenMrFinchActivity : AppCompatActivity() {
+
+    override fun onBackPressed() { }
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.home_screen_mr_finch_activity)
