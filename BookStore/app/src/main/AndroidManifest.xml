@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.fakebookstore">
+    package="com.SoftwareEngineeringProject.BookStore">
 
     <application
         android:allowBackup="true"
@@ -11,7 +11,7 @@
         android:theme="@style/AppTheme">
 
         <activity
-            android:name=".LoginScreenActivity"
+            android:name="com.SoftwareEngineeringProject.BookStore.LoginScreenActivity"
             android:screenOrientation="landscape"
             android:windowSoftInputMode="stateHidden">
             <intent-filter>
@@ -22,11 +22,11 @@
         </activity>
 
         <activity
-            android:name=".HomeScreenMrFinchActivity"
+            android:name="com.SoftwareEngineeringProject.BookStore.HomeScreenMrFinchActivity"
             android:screenOrientation="landscape" />
 
         <activity
-            android:name=".BookSearch"
+            android:name="com.SoftwareEngineeringProject.BookStore.BookSearch"
             android:screenOrientation="landscape"/>
     </application>
 

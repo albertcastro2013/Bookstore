@@ -1,11 +1,10 @@
-package com.example.fakebookstore
+package com.SoftwareEngineeringProject.BookStore
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Toast
 import kotlinx.android.synthetic.main.home_screen_mr_finch_activity.*
-import kotlinx.android.synthetic.main.login_screen_activity.*
 
 
 class HomeScreenMrFinchActivity : AppCompatActivity() {

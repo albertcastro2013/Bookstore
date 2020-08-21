@@ -1,4 +1,4 @@
-package com.example.fakebookstore
+package com.SoftwareEngineeringProject.BookStore
 
 import org.junit.Test
 

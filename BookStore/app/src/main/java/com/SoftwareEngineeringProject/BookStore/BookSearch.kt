@@ -1,4 +1,4 @@
-package com.example.fakebookstore
+package com.SoftwareEngineeringProject.BookStore
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
