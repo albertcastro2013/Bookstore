@@ -78,9 +78,22 @@ WHAT WAS DONE
 - COMPLETED: 	Home screen buttons, layouts, and visuals
 - COMPLETED: 	Vincent: Login screen buttons, layouts, and visuals
 
+
+
+
 __________________________________
 8/17/20 - 08/21/2020
 
 WHAT WAS DONE
 - NEED	   :	Book Search and Checkout Screen buttons, layouts, and visuals
 - NEED	   :	Vincent: Employees and Customers Screen
+- COMPLETED: 	Revised Checkout Screen: quicker, more efficient for user and code
+
+
+__________________________________
+8/24/20 - 08/28/2020
+- NEED	   :	Book Search and Checkout Screen buttons, layouts, and visuals
+- NEED	   :	Vincent: Employees and Customers Screen
+- COMPLETED: 	Implemented Recycler and Card view for book list in book search
+
+

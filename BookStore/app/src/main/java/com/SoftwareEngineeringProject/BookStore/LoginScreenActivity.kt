@@ -24,7 +24,8 @@ class LoginScreenActivity : AppCompatActivity() {
                 if (userNameET.text.toString() == "mrfinch" && passwordET.text.toString() == "abc") {
                     val intent = Intent(this, HomeScreenMrFinchActivity::class.java)
                     startActivity(intent)
-                } else {
+                }
+                else {
                     Toast.makeText(this, "Invalid Username or Password", Toast.LENGTH_SHORT).show()
                 }
             }
